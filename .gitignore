@@ -1,0 +1,20 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore environment files
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+.classpath
+.project
+.settings/

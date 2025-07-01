@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "src/helper/types"],
     "target": "es6",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "../tests-out"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*", "**/*.ts", "**/*.mjs"],
+  "exclude": ["node_modules", "config"]
 }

@@ -19,8 +19,15 @@ Thumbs.db
 .classpath
 .project
 .settings/
+.idea
+.idea/*
 
 node_modules/
 playwright-report/
 test-results/
 dist/
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
